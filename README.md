@@ -20,6 +20,7 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 
 ### tmux
 - [tmux installation steps on Ubuntu](tmux/tmux-install.md)
+- [tmux vs. screen commands](tmux/tmux_vs_screen-commands.md)
 
 
 ----------
