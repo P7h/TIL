@@ -9,6 +9,7 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 ## Categories
 - [AWS](#aws)
 - [tmux](#tmux)
+- [Scala](#scala)
 
 
 ----------
@@ -16,6 +17,9 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 ### AWS
 - [Access EC2 Linux instance with SSH Client](AWS/aws-pscp-ssh-scp.md)
 
+
+### Scala
+- [Finding prime numbers in a given range in Scala](Scala/find-primes-scala.md)
 
 
 ### tmux
