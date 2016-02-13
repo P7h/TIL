@@ -20,6 +20,7 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 
 ### Scala
 - [Finding prime numbers in a given range in Scala](Scala/find-primes-scala.md)
+- [Finding prime numbers in a given range in Scala -- refined version](Scala/find-primes-scala-refined.md)
 
 
 ### tmux
