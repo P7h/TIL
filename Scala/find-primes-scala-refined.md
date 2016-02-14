@@ -1,6 +1,6 @@
 ## Finding prime numbers in Scala [refined version]
 
-```
+```scala
 // Scala method to find if a number is prime or not.
 // https://en.wikipedia.org/wiki/Twin_prime
 def isPrime(number: Int): Boolean = {
@@ -19,11 +19,11 @@ def isPrime(number: Int): Boolean = {
 
 ### Scala code to find primes in a given range
 #### Normal execution
-```
+```scala
 (1 to 100).map(i => ((i, isPrime(i)))).filter(_._2 == true).foreach(i => println(i._1))
 ```
 
 #### Parallel execution
-```
+```scala
 (1 to 100).par.map(i => ((Thread.currentThread.getName, i, isPrime(i)))).toList.filter(_._3 == true).sortBy(_._2).foreach(i => println(i._1 + "\t" + i._2))
 ```
