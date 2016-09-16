@@ -19,8 +19,8 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 
 ### AWS
 - [Access EC2 Linux instance with SSH Client](AWS/aws-pscp-ssh-scp.md)
-- [Steps to change hostname of a CentOS instance on EC2](AWS/aws-change-hostname-centos.md)
-- [Steps to change hostname of a Ubuntu instance on EC2](AWS/aws-change-hostname-ubuntu.md)
+- [Change hostname of a CentOS instance on EC2](AWS/aws-change-hostname-centos.md)
+- [Change hostname of an Ubuntu instance on EC2](AWS/aws-change-hostname-ubuntu.md)
 
 
 ### Hive
@@ -30,7 +30,8 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 ### Linux
 - [Linux commands](Linux/Linux-commands.md)
 - [Find Platform, CPU, Memory of a Linux machine with Python](Linux/Memory-CPU-stats.md)
-
+- [Bash command line Shortcuts](Linux/Bash_command_line_shortcuts.md)
+- [Install 7zip on Linux](Linux/Install_7zip_on_Linux.md)
 
 ### Postgres
 - [PGSQL commands](PGSQL/PGSQL-commands.md)
@@ -50,7 +51,7 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 
 ## About
 
-I stole this idea from [jbranchaud/til](https://github.com/jbranchaud/til) who has actually stolen it from [thoughtbot/til](https://github.com/thoughtbot/til). :-)
+I got inspired from [jbranchaud/til](https://github.com/jbranchaud/til) who has actually was inspired from [thoughtbot/til](https://github.com/thoughtbot/til). :-)
 
 
 
