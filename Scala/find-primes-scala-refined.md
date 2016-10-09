@@ -17,10 +17,32 @@ def isPrime(number: Int): Boolean = {
 }
 ```
 
+
+```scala
+// Scala method to find if a number is prime or not.
+// https://en.wikipedia.org/wiki/Primality_test
+def naivePrimalityTest(n: Int): Boolean = {
+  def primeEvalRecursion(i: Int, n2: Int): Boolean = {
+      n2 match {
+        case iSquared if (i*i > n2) => true
+        case nModi if (n2 % i == 0 || n2 % (i + 2) == 0) => false
+        case _ => primeEvalRecursion((i + 6), n2)
+      }
+  }
+  n match {
+    case lessThanOrEqualTo1 if (n <= 1) => false
+    case lessThanOrEqualTo3 if (n <= 3) => true
+    case multipleOf2Or3 if (n % 2 == 0 || n % 3 == 0) => false
+    case _ => primeEvalRecursion(5, n)
+  }
+}
+```
+
 ### Scala code to find primes in a given range
 #### Normal execution
 ```scala
-(1 to 100).map(i => ((i, isPrime(i)))).filter(_._2 == true).foreach(i => println(i._1))
+(1 to 100).map(i => ((i, isPrime(i)))).filter(_._2 == true).foreach(i => print(i._1 + "\t"))
+(1 to 100).map(i => ((i, naivePrimalityTest(i)))).filter(_._2 == true).foreach(i => print(i._1 + "\t"))
 ```
 
 #### Parallel execution

@@ -12,7 +12,8 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 - [Linux](#linux)
 - [PGSQL](#postgres)
 - [Scala](#scala)
-- [tmux](#tmux)
+- [tmux and screen](#tmux-and-screen)
+- [Python](#python)
 
 
 ----------
@@ -32,6 +33,8 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 - [Find Platform, CPU, Memory of a Linux machine with Python](Linux/Memory-CPU-stats.md)
 - [Bash command line Shortcuts](Linux/Bash_command_line_shortcuts.md)
 - [Install 7zip on Linux](Linux/Install_7zip_on_Linux.md)
+- [Turn off firewall](Linux/Turn-off-firewall.md)
+- [PID Stats](Linux/pid-stats.md)
 
 ### Postgres
 - [PGSQL commands](PGSQL/PGSQL-commands.md)
@@ -40,18 +43,25 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 ### Scala
 - [Finding prime numbers in a given range in Scala](Scala/find-primes-scala.md)
 - [Finding prime numbers in a given range in Scala -- refined version](Scala/find-primes-scala-refined.md)
+- [Factorial](Scala/factorial-scala.md)
 
 
-### tmux
+### tmux and screen
 - [tmux installation steps on Ubuntu](tmux/tmux-install.md)
 - [tmux vs. screen commands](tmux/tmux_vs_screen-commands.md)
+- [tmux vs. screen commands v2](tmux/tmux_vs_screen-commands-v2.md)
+- [Kill all screens](tmux/kill-all-screens.md)
+
+
+### Python
+- [Current week number](current_week_number.md)
 
 
 ----------
 
 ## About
 
-I got inspired from [jbranchaud/til](https://github.com/jbranchaud/til) who has actually was inspired from [thoughtbot/til](https://github.com/thoughtbot/til). :-)
+Inspiration from [jbranchaud/til](https://github.com/jbranchaud/til) who has actually was inspired from [thoughtbot/til](https://github.com/thoughtbot/til). :-)
 
 
 
