@@ -2,7 +2,7 @@
 
 > Today I Learned
 
-Code snippets or steps for a random task or issue at hand, which I have learnt today.
+Code snippets or steps for a random task or issue at hand, which I learnt today.
 
 
 
@@ -61,7 +61,7 @@ Code snippets or steps for a random task or issue at hand, which I have learnt t
 
 ## About
 
-Inspiration from [jbranchaud/til](https://github.com/jbranchaud/til) who has actually was inspired from [thoughtbot/til](https://github.com/thoughtbot/til). :-)
+Inspired from [jbranchaud/til](https://github.com/jbranchaud/til) who was actually inspired from [thoughtbot/til](https://github.com/thoughtbot/til). :-)
 
 
 

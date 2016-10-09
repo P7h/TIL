@@ -1,8 +1,11 @@
 ## Finding prime numbers in Scala [refined version]
 
 ```scala
-// Scala method to find if a number is prime or not.
-// https://en.wikipedia.org/wiki/Twin_prime
+/**
+ * Scala method to find if a number is prime or not.
+ *
+ * @see <a href="https://en.wikipedia.org/wiki/Twin_prime">https://en.wikipedia.org/wiki/Twin_prime</a>
+ */
 def isPrime(number: Int): Boolean = {
     number match {
         case 1 => false
@@ -19,8 +22,11 @@ def isPrime(number: Int): Boolean = {
 
 
 ```scala
-// Scala method to find if a number is prime or not.
-// https://en.wikipedia.org/wiki/Primality_test
+/**
+ * Scala method to find if a number is prime or not.
+ *
+ * @see <a href="https://en.wikipedia.org/wiki/Primality_test">https://en.wikipedia.org/wiki/Primality_test</a>
+ */
 def naivePrimalityTest(n: Int): Boolean = {
   def primeEvalRecursion(i: Int, n2: Int): Boolean = {
       n2 match {
@@ -42,10 +48,13 @@ def naivePrimalityTest(n: Int): Boolean = {
 #### Normal execution
 ```scala
 (1 to 100).map(i => ((i, isPrime(i)))).filter(_._2 == true).foreach(i => print(i._1 + "\t"))
+
 (1 to 100).map(i => ((i, naivePrimalityTest(i)))).filter(_._2 == true).foreach(i => print(i._1 + "\t"))
 ```
 
 #### Parallel execution
 ```scala
 (1 to 100).par.map(i => ((Thread.currentThread.getName, i, isPrime(i)))).toList.filter(_._3 == true).sortBy(_._2).foreach(i => println(i._1 + "\t" + i._2))
+
+(1 to 100).par.map(i => ((Thread.currentThread.getName, i, naivePrimalityTest(i)))).toList.filter(_._3 == true).sortBy(_._2).foreach(i => println(i._1 + "\t" + i._2))
 ```
