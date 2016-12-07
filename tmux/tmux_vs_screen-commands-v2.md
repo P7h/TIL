@@ -1,4 +1,5 @@
 # tmux vs. screen commands
+---
 
 | **Action** | **tmux** | **screen** |
 |---|---|---|
@@ -8,7 +9,7 @@
 | re-attach a detached session with a name | <kbd>tmux attach -t name</kbd><br><kbd>tmux a -t name</kbd> | <kbd>screen -r name</kbd> |
 | re-attach an attached session (detaching it from elsewhere) | <kbd>tmux attach -d</kbd><br><kbd>tmux attach-session -d</kbd> | <kbd>screen -dr</kbd> |
 | re-attach an attached session (keeping it attached elsewhere) | <kbd>tmux attach</kbd><br><kbd>tmux attach-session</kbd> | <kbd>screen -x</kbd> |
-| detach from currently attached session | <kbd>^b</kbd> <kbd>d</kbd><br><kbd>^b</kbd> <kbd>:detach</kbd> | <kbd>^a</kbd> <kbd>^d</kbd> |
+| detach from currently attached session | <kbd>^b</kbd> <kbd>d</kbd><br><kbd>^b</kbd> <kbd>:detach</kbd> | <kbd>^a</kbd> <kbd>d</kbd> |
 | rename-window to newname | <kbd>^b</kbd> <kbd>,</kbd><br><kbd>^b</kbd> <kbd>:rename-window <newname></kbd> | <kbd>^a</kbd> <kbd>A</kbd> <kbd>newname</kbd> |
 | list windows | <kbd>^b</kbd> <kbd>w</kbd> | <kbd>^a</kbd> <kbd>w</kbd> |
 | list windows in chooseable menu | | <kbd>^a</kbd> <kbd>"</kbd> |
@@ -35,14 +36,15 @@
 | copy text in one view | | <kbd>^a</kbd> <kbd>[</kbd> <kbd>^m</kbd><br>(highlight text and <kbd>enter</kbd>)<br>(to save: <kbd>^a</kbd> <kbd>></kbd>) |
 | paste text into a view | | <kbd>^a</kbd> <kbd>]</kbd> |
 
-### Other useful references
+## Other references
 Extended from [tmux & screen cheat-sheet](http://www.dayid.org/comp/tm.html).
 
-#### tmux
+### tmux
  * tmux shortcuts & cheatsheet: [https://gist.github.com/MohamedAlaa/2961058](https://gist.github.com/MohamedAlaa/2961058)
+ * Book &raquo; "tmux 2: Productive Mouse-Free Development" 1st Ed: [https://www.amazon.com/tmux-2-Productive-Mouse-Free-Development/dp/1680502212](https://www.amazon.com/tmux-2-Productive-Mouse-Free-Development/dp/1680502212)
  * Book &raquo; "tmux: Productive Mouse-Free Development" 1st Ed: [https://www.amazon.com/tmux-Productive-Development-Brian-Hogan/dp/1934356964](https://www.amazon.com/tmux-Productive-Development-Brian-Hogan/dp/1934356964)
 
-#### screen
+### screen
  * Screen cheatsheet: [http://www.catonmat.net/download/screen.cheat.sheet.pdf](http://www.catonmat.net/download/screen.cheat.sheet.pdf)
  * Screen reference: [http://aperiodic.net/screen/quick_reference](http://aperiodic.net/screen/quick_reference)
  * Book &raquo; "GNU Screen: The virtual terminal manager" 1st Ed: [https://www.amazon.com/GNU-Screen-virtual-terminal-manager/dp/9888381393](https://www.amazon.com/GNU-Screen-virtual-terminal-manager/dp/9888381393)
